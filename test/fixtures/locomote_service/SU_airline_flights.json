@@ -1,0 +1,398 @@
+[
+  {
+    "key": "U1U4NSAxNTQ2MjYxMjAwMDAw",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 85,
+    "start": {
+      "dateTime": "2019-01-01T19:50:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-01T23:51:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "333",
+      "shortName": "Airbus A330-300",
+      "fullName": "Airbus Industrie A330-300",
+      "manufacturer": "Airbus",
+      "model": "A330-300"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 1615.89
+  },
+  {
+    "key": "U1U1MTggMTU0NjI2MTIwMDAwMA==",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 518,
+    "start": {
+      "dateTime": "2019-01-01T23:59:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-02T04:00:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "74H",
+      "shortName": "Boeing 747-8",
+      "fullName": "Boeing 747-8",
+      "manufacturer": "Boeing",
+      "model": "747-8 Intercontinental"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 1437.26
+  },
+  {
+    "key": "U1U4NjIgMTU0NjI2MTIwMDAwMA==",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 862,
+    "start": {
+      "dateTime": "2019-01-01T01:02:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-01T05:03:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "T95",
+      "shortName": "TU-95",
+      "fullName": "TU-95V",
+      "manufacturer": "Tupolev",
+      "model": "TU-95V"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 1650.51
+  },
+  {
+    "key": "U1U4ODYgMTU0NjI2MTIwMDAwMA==",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 886,
+    "start": {
+      "dateTime": "2019-01-01T21:53:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-02T01:54:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "T95",
+      "shortName": "TU-95",
+      "fullName": "TU-95V",
+      "manufacturer": "Tupolev",
+      "model": "TU-95V"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 1829.54
+  },
+  {
+    "key": "U1U0NjkgMTU0NjI2MTIwMDAwMA==",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 469,
+    "start": {
+      "dateTime": "2019-01-01T06:16:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-01T10:17:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "380",
+      "shortName": "Airbus A380",
+      "fullName": "Airbus Industrie A380",
+      "manufacturer": "Airbus",
+      "model": "A380"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 1281.47
+  },
+  {
+    "key": "U1U5NTcgMTU0NjI2MTIwMDAwMA==",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 957,
+    "start": {
+      "dateTime": "2019-01-01T16:41:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-01T20:42:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "333",
+      "shortName": "Airbus A330-300",
+      "fullName": "Airbus Industrie A330-300",
+      "manufacturer": "Airbus",
+      "model": "A330-300"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 2033.63
+  },
+  {
+    "key": "U1U1MzUgMTU0NjI2MTIwMDAwMA==",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 535,
+    "start": {
+      "dateTime": "2019-01-01T06:14:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-01T10:15:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "380",
+      "shortName": "Airbus A380",
+      "fullName": "Airbus Industrie A380",
+      "manufacturer": "Airbus",
+      "model": "A380"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 1553.46
+  },
+  {
+    "key": "U1U2NDQgMTU0NjI2MTIwMDAwMA==",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 644,
+    "start": {
+      "dateTime": "2019-01-01T21:55:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-02T01:56:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "T95",
+      "shortName": "TU-95",
+      "fullName": "TU-95V",
+      "manufacturer": "Tupolev",
+      "model": "TU-95V"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 2030.98
+  },
+  {
+    "key": "U1U4NSAxNTQ2MjYxMjAwMDAw",
+    "airline": {
+      "code": "SU",
+      "name": "Aeroflot"
+    },
+    "flightNum": 85,
+    "start": {
+      "dateTime": "2019-01-01T19:50:00+11:00",
+      "airportCode": "SYD",
+      "airportName": "Kingsford Smith",
+      "cityCode": "SYD",
+      "cityName": "Sydney",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "latitude": -33.946111,
+      "longitude": 151.177222,
+      "stateCode": "NS",
+      "timeZone": "Australia/Sydney"
+    },
+    "finish": {
+      "dateTime": "2019-01-01T23:51:00-05:00",
+      "airportCode": "JFK",
+      "airportName": "John F Kennedy Intl",
+      "cityCode": "NYC",
+      "cityName": "New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "latitude": 40.639751,
+      "longitude": -73.778925,
+      "stateCode": "NY",
+      "timeZone": "America/New_York"
+    },
+    "plane": {
+      "code": "T95",
+      "shortName": "TU-95",
+      "fullName": "TU-95V",
+      "manufacturer": "Tupolev",
+      "model": "TU-95V"
+    },
+    "distance": 16014,
+    "durationMin": 1201,
+    "price": 1615.89
+  }
+]

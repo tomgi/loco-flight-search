@@ -1,0 +1,14 @@
+[
+    {
+        "airportCode": "JFK",
+        "airportName": "John F Kennedy Intl",
+        "cityCode": "NYC",
+        "cityName": "New York",
+        "countryCode": "US",
+        "countryName": "United States",
+        "latitude": 40.639751,
+        "longitude": -73.778925,
+        "stateCode": "NY",
+        "timeZone": "America/New_York"
+    }
+]

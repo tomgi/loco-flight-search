@@ -9,12 +9,14 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "build": "NODE_ENV=production $(npm bin)/webpack --config webpack.prod.js",
-    "dev": "$(npm bin)/nodemon",
-    "test": "jest ./test",
+    "build": "NODE_ENV=production webpack --config webpack.prod.js",
+    "test": "npm run lint && npm run test-backend && npm run test-acceptance",
+    "dev": "nodemon",
+    "lint": "eslint ./",
     "start-test-env": "npm run build && NODE_ENV=test npm start",
-    "test-acceptance": "$(npm bin)/start-server-and-test start-test-env 3000 cypress",
-    "cypress": "$(npm bin)/cypress run",
+    "test-backend": "jest ./test",
+    "test-acceptance": "PORT=4000 start-server-and-test start-test-env 4000 cypress",
+    "cypress": "cypress run",
     "heroku-postbuild": "npm run build"
   },
   "jest": {

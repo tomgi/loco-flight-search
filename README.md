@@ -39,11 +39,16 @@ In this mode JS sourcemaps are also included which enables in-browser debugging 
 
 ## Running the tests
 
+Run all tests with:
+```
+$ npm test
+```
+
 ### Backend
 
 Run with:
 ```
-$ npm test
+$ npm run test-backend
 ```
 
 Backend tests use [Jest](https://facebook.github.io/jest/), [SuperTest](https://github.com/visionmedia/supertest) and [nock](https://github.com/nock/nock).

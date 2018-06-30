@@ -55,6 +55,10 @@ class FlightSearchComponent {
     if (!(this.airportFrom.value && this.airportTo.value && this.date.value)) {
       return { error: missingFieldsTemplate() };
     }
+    // TODO: This validation should work against current date in the departure airport's timezone
+    // Otherwise it's actually possible to search for past flights, which results in backend error
+    // e.x. A user located in Europe searching for flights in Australia for today's date
+    // In Australia it may already be the next day, but the current validation won't catch it
     if (this.date.value.isBefore(moment().startOf('day'))) {
       return { error: dateInThePastTemplate() };
     }

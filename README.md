@@ -48,14 +48,14 @@ $ npm test
 
 Backend tests use [Jest](https://facebook.github.io/jest/), [SuperTest](https://github.com/visionmedia/supertest) and [nock](https://github.com/nock/nock).
 
-### Frontend
+### Acceptance
 
 Run with:
 ```
-$ npm run test-frontend
+$ npm run test-acceptance
 ```
 
-Decided to give [cypress](https://www.cypress.io/) a try for frontend testing.
+Decided to give [cypress](https://www.cypress.io/) a try for end-to-end browser testing.
 
 ## Deployment
 

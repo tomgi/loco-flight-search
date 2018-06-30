@@ -1,5 +1,5 @@
 {
   "baseUrl": "http://localhost:3000",
-  "integrationFolder": "test/frontend",
+  "integrationFolder": "test/acceptance",
   "fixturesFolder": "test/fixtures"
 }

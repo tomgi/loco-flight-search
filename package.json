@@ -11,9 +11,9 @@
     "start": "node server/index.js",
     "build": "NODE_ENV=production $(npm bin)/webpack --config webpack.prod.js",
     "dev": "$(npm bin)/nodemon",
-    "prod": "npm run build && NODE_ENV=production npm start",
     "test": "jest ./test",
-    "test-frontend": "$(npm bin)/start-server-and-test prod 3000 cypress",
+    "start-test-env": "npm run build && NODE_ENV=test npm start",
+    "test-acceptance": "$(npm bin)/start-server-and-test start-test-env 3000 cypress",
     "cypress": "$(npm bin)/cypress run",
     "heroku-postbuild": "npm run build"
   },

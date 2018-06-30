@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tomgi/loco-flight-search.svg?branch=master)](https://travis-ci.org/tomgi/loco-flight-search)
+
 # Loco Flight Search
 
 Simple flight search application that uses Locomote API.

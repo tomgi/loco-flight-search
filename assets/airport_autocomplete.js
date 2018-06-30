@@ -17,6 +17,10 @@ const airportsSource = new Bloodhound({
 
 class AirportAutocomplete {
   constructor(airportInputField) {
+    if ($(airportInputField).length !== 1) {
+      throw new Error('AirportAutocomplete component must be given a single DOM element to attach to.');
+    }
+
     $(airportInputField).typeahead({
       minLength: 3,
       highlight: true,

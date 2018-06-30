@@ -3,9 +3,13 @@ import Pikaday from 'pikaday';
 import 'moment';
 
 class Datepicker {
-  constructor(datepickerInput) {
+  constructor(dateInputField) {
+    if ($(dateInputField).length !== 1) {
+      throw new Error('Datepicker component must be given a single DOM element to attach to.');
+    }
+
     const pikaday = new Pikaday({
-      field: $(datepickerInput)[0],
+      field: $(dateInputField)[0],
       onSelect: () => { this.value = pikaday.getMoment(); },
     });
   }

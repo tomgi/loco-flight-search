@@ -1,11 +1,5 @@
 import $ from 'jquery';
-import FlightSearchComponent from './flight_search_component';
+import Vue from 'vue';
+import App from './App.vue';
 
-const app = {
-  init() {
-    this.flightSearchThere = new FlightSearchComponent($('#flight-search-there'));
-    this.flightSearchBack = new FlightSearchComponent($('#flight-search-back'));
-  },
-};
-
-$(document).ready(() => app.init());
+$(document).ready(() => new Vue(App).$mount('#app'));

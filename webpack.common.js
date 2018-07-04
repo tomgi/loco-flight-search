@@ -1,4 +1,9 @@
+// allowing this dev-only webpack compilation code to access devDependencies
+// following convention proposed in https://github.com/webpack/webpack/issues/520#issuecomment-174011824
+/* eslint-disable import/no-extraneous-dependencies */
 const path = require('path');
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+
 
 module.exports = {
   entry: ['./assets/index.js'],
@@ -15,21 +20,23 @@ module.exports = {
   },
   module: {
     rules: [{
+      test: /\.vue$/,
+      use: {
+        loader: 'vue-loader',
+      },
+    },
+    {
       test: /\.js$/,
       exclude: /(node_modules)/,
       use: {
         loader: 'babel-loader',
       },
     },
-    {
-      test: /\.hbs$/,
-      loader: 'handlebars-loader',
-      options: {
-        precompileOptions: {
-          knownHelpersOnly: false,
-        },
-      },
-    },
     ],
   },
+  plugins: [
+    // make sure to include the plugin for the magic
+    new VueLoaderPlugin(),
+  ],
 };
+/* eslint-enable */

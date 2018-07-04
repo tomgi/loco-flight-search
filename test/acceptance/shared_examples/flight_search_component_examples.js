@@ -11,12 +11,12 @@ module.exports = {
     });
 
     const submitSearchForm = (date) => {
-      cy.get('input[name=airport-from]').type('Sydney');
+      cy.get('input[placeholder="Where are you flying from?"]').type('Sydney');
       cy.contains('Kingsford Smith').click();
-      cy.get('input[name=airport-to]').type('JFK');
+      cy.get('input[placeholder="Where are you flying to?"]').type('JFK');
       cy.contains('John F Kennedy Intl').click();
 
-      cy.get('input[name=date]').type(date);
+      cy.get('input[placeholder="When are you flying?"]').type(date);
       cy.root().click(); // to hide the datepicker
       cy.get('button[name=submit]').click();
     };

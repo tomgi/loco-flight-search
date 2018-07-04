@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: ['./assets/index.js'],
+  entry: ['./assets/index.jsx'],
   output: {
     // TODO: generate unique-hash name and allow browsers to cache the resulting js bundle
     // https://webpack.js.org/guides/caching/ https://github.com/koajs/static-cache
@@ -13,23 +13,16 @@ module.exports = {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000,
   },
+  resolve: { extensions: ['.js', '.jsx'] },
   module: {
-    rules: [{
-      test: /\.js$/,
-      exclude: /(node_modules)/,
-      use: {
-        loader: 'babel-loader',
-      },
-    },
-    {
-      test: /\.hbs$/,
-      loader: 'handlebars-loader',
-      options: {
-        precompileOptions: {
-          knownHelpersOnly: false,
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
         },
       },
-    },
     ],
   },
 };

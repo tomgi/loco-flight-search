@@ -6,7 +6,7 @@ module.exports = {
     "jest": true,
     "cypress/globals": true
   },
-  "extends": "airbnb-base",
+  "extends": ["airbnb-base", "plugin:vue/recommended"],
   "parserOptions": {
     "ecmaVersion": 2017,
     "sourceType": "module",
@@ -18,7 +18,7 @@ module.exports = {
       "no-console": 0 // allow use of console in the backend code
     }
   }, {
-    "files": ["assets/**/*.js"],
+    "files": ["assets/**/*"],
     "rules": {
       "import/no-extraneous-dependencies": ["error", {
         // allowing frontend code to access devDependencies

@@ -3,7 +3,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const merge = require('webpack-merge');
 const CompressionPlugin = require('compression-webpack-plugin');
-/* eslint-enable */
 
 const common = require('./webpack.common.js');
 
@@ -14,3 +13,4 @@ module.exports = merge(common, {
     new CompressionPlugin(),
   ],
 });
+/* eslint-enable */

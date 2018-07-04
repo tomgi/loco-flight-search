@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './assets/index.js',
+  entry: ['./assets/index.js'],
   output: {
     // TODO: generate unique-hash name and allow browsers to cache the resulting js bundle
     // https://webpack.js.org/guides/caching/ https://github.com/koajs/static-cache

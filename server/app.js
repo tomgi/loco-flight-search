@@ -25,7 +25,7 @@ if (['production', 'test'].includes(process.env.NODE_ENV)) {
   // allowing this dev-only code to access devDependencies
   /* eslint-disable global-require, import/no-extraneous-dependencies */
   const koaWebpack = require('koa-webpack');
-  koaWebpack({ hotClient: false, config: require('../webpack.dev.js') })
+  koaWebpack({ config: require('../webpack.dev.js') })
     .then(webpackMiddleware => app.use(webpackMiddleware));
   /* eslint-enable */
 }

@@ -1,30 +1,30 @@
 module.exports = {
-  itBehavesLikeASuccessfulJsonResponse: (context, expectedPayload) => {
+  itBehavesLikeASuccessfulJsonResponse: (ctx, expectedPayload) => {
     it('should return a success status code', () => {
-      expect(context.response.status).toEqual(200);
+      expect(ctx.response.status).toEqual(200);
     });
 
     it('should have a correct content type', () => {
-      expect(context.response.type).toEqual('application/json');
+      expect(ctx.response.type).toEqual('application/json');
     });
 
     it('should have a correct payload body', () => {
-      expect(context.response.body).toEqual(expectedPayload);
+      expect(ctx.response.body).toEqual(expectedPayload);
     });
   },
 
-  itBehavesLikeAFailureJsonResponse: (context, errorMessage) => {
+  itBehavesLikeAFailureJsonResponse: (ctx, errorMessage) => {
     it('should return a failure status code', () => {
-      expect(context.response.status).not.toEqual(200);
+      expect(ctx.response.status).not.toEqual(200);
     });
 
     it('should have a correct content type', () => {
-      expect(context.response.type).toEqual('application/json');
+      expect(ctx.response.type).toEqual('application/json');
     });
 
     it('should have a correct payload body', () => {
-      expect(context.response.body).toHaveProperty('error');
-      expect(context.response.body.error).toMatch(errorMessage);
+      expect(ctx.response.body).toHaveProperty('error');
+      expect(ctx.response.body.error).toMatch(errorMessage);
     });
   },
 };

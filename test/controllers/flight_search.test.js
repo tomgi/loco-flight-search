@@ -1,9 +1,9 @@
 require('../test_helper');
 
-const server = require('../../server/app');
 const request = require('supertest');
-const jsonResponseExamples = require('./shared_examples/json_response_examples');
 const nock = require('nock');
+const server = require('../../server/app');
+const jsonResponseExamples = require('./shared_examples/json_response_examples');
 
 describe('routes: search', () => {
   const fromAirportCode = 'SYD';
